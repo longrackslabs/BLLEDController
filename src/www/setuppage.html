@@ -280,6 +280,7 @@
                     document.getElementById('ip').value = configData.ip || '';
                     document.getElementById('code').value = configData.code || '';
                     document.getElementById('id').value = configData.id || '';
+                    document.getElementById('ssid').value = configData.ssid || '';
                     document.getElementById('apMAC').value = configData.apMAC || '';
                     document.getElementById('brightnessslider').value = configData.brightness || 100;
                     document.getElementById("brightnesssliderDisplay").textContent = "Brightness: "+ (configData.brightness || 100) + "%";
@@ -429,6 +430,8 @@
                 <input type='text' id='code' name='code' title='Enter the access code for your MQTT broker' value=''><br>
                 <label for='id'>Serial ID:</label>
                 <input type='text' id='id' name='id' title='Enter the serial ID for your device' value=''><br>
+                <label for='id'>SSID:</label>
+                <input type='text' id='ssid' name='id' title='Enter SSID for your network' value=''><br>
                 <label for='apMAC'>Wifi Access Point MAC Address:</label>
                 <table width='100%'>
                     <TR>
